@@ -45,6 +45,7 @@ export default function App() {
         <h1>Greengrocers</h1>
         <ul className="item-list store--item-list">
           {/* mapping to produce all the items stored in StoreData */}
+          {/* why oh why is my data not showing up correctly ???? */}
           {store.map(item => (
             <li>
               <div className="store--item-icon">
